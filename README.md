@@ -2,6 +2,14 @@
 
 This is just a little help on how to run your own Jupyter Notebook server with the latest Q kernel and with your own license file.
 
+## Quick Start
+
+You have docker-compose on Linux (or WSL2) and your `$QHOME`/`$QLIC` already set, just run:
+
+```
+ $ docker-compose up -d          # or docker compose up -d
+```
+
 ## Prerequisites
 
  * You need a Linux running on an Intel CPU with Docker installed. You can get this on Windows 10/11 too if you [install WSL2](https://learn.microsoft.com/en-us/windows/wsl/install) and [Docker Desktop](https://www.docker.com/products/docker-desktop).
