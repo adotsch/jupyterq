@@ -4,7 +4,13 @@ This is just a little help on how to run your own Jupyter Notebook server with t
 
 ## Quick Start
 
-You have docker-compose on Linux (or WSL2) and your `$QHOME`/`$QLIC` already set, just run:
+You have
+ * docker-compose on Linux (or WSL2)
+ * your `$QHOME`/`$QLIC` is already set
+ * you have a valid `kc.lic` 
+
+just run:
+
 
 ```
  $ docker-compose up -d          # or docker compose up -d
