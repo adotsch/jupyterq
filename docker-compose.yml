@@ -1,0 +1,13 @@
+version: "3"
+services:
+    jupyterq:
+        image: kxsys/jupyterq
+        container_name: jupyterq
+        ports:
+            - $JUPYTERQ_PORT:8888
+        volumes:
+            - $QLIC_PATH/$QLIC_FILE:/home/kx/$QLIC_FILE:ro
+            - $QHOME_PATH/q.k:/opt/kx/q/q.k:ro
+            - $QHOME_PATH/l64/q:/opt/kx/q/l64/q:ro
+            - $JQNOTEBOOKS:/jqnotebooks
+        restart: unless-stopped
