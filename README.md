@@ -16,6 +16,8 @@ just run:
  $ docker-compose up -d          # or docker compose up -d
 ```
 
+and open `http://localhost:8888`.
+
 ## Prerequisites
 
  * You need a Linux running on an Intel CPU with Docker installed. You can get this on Windows 10/11 too if you [install WSL2](https://learn.microsoft.com/en-us/windows/wsl/install) and [Docker Desktop](https://www.docker.com/products/docker-desktop).
