@@ -21,7 +21,7 @@ Go to the directory where the `docker-compose.yml` and `.env` file is and run th
 This will download the `kxsys/jupyterq` image to your computer (if not available yet) and start the server.
 
 ```
- $ docker-compose up -d
+ $ docker-compose up -d          # or docker compose up -d
 ```
 
 Open `http://localhost:8888`.
@@ -29,7 +29,7 @@ Open `http://localhost:8888`.
 ## Stop the Jupyter Notebook server
 
 ```
- $ docker-compose down
+ $ docker-compose down           # or docker compose down
 ```
 
 ## Clean up
