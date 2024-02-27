@@ -13,6 +13,7 @@ You can request and download a [free KDB personal edition with a 12 month free l
 ## Set up
 
 Edit the relevant variables in the `.env` file. Those should point to your q home directory and your license file directory.
+If you already have `$QHOME` and `$QLIC` set up, nothing has to be done.
 You can also modify the notebooks directory path and the server port if you need to.
 
 ## Start the Jupyter Notebook server
