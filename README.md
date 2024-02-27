@@ -1,6 +1,6 @@
-# JupyterQ
+# JupyerQ
 
-This is just a little help on how to run your own Jupyter Notebook server with the latest Q kernel and with your own license file.
+This is just a little help on how to run your own Jupyer Notebook server with the latest Q kernel and with your own license file.
 
 ## Prerequisites
 
@@ -15,7 +15,7 @@ You can request and download a [free KDB personal edition with a 12 month free l
 Edit the relevant variables in the `.env` file. Those should point to your q home directory and your license file directory.
 You can also modify the notebooks directory path and the server port if you need to.
 
-## Start the Jupyter Notebook server
+## Start the Jupyer Notebook server
 
 Go to the directory where the `docker-compose.yml` and `.env` file is and run the command below.
 This will download the `kxsys/jupyterq` image to your computer (if not available yet) and start the server.
@@ -26,7 +26,7 @@ This will download the `kxsys/jupyterq` image to your computer (if not available
 
 Open `http://localhost:8888`.
 
-## Stop the Jupyter Notebook server
+## Stop the Jupyer Notebook server
 
 ```
  $ docker-compose down           # or docker compose down
