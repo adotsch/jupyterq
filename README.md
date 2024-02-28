@@ -1,16 +1,15 @@
 # JupyterQ
 
-This is just a little help on how to run your own Jupyter Notebook server with the latest Q kernel and with your own license file.
+Here is a quick guide to setting up your own Jupyter Notebook server with the latest Q kernel and your own license file.
 
 ## Quick Start
 
-You have
+If you have
  * docker-compose on Linux (or WSL2)
  * your `$QHOME`/`$QLIC` already set
  * a valid `kc.lic` 
 
 just run:
-
 
 ```
  $ docker-compose up -d          # or docker compose up -d
